@@ -33,10 +33,10 @@ class ListQueue:
 
 if __name__ == '__main__':
     main_obj = MyQueue()
-    print(main_obj.enqueue("Bill"))
-    print(main_obj.enqueue("David"))
-    print(main_obj.enqueue("Susan"))
-    print(main_obj.enqueue("Jane"))
-    print(main_obj.enqueue("Kent"))
-    print(main_obj.enqueue("Brad"))
+    main_obj.enqueue("Bill")
+    main_obj.enqueue("David")
+    main_obj.enqueue("Susan")
+    main_obj.enqueue("Jane")
+    main_obj.enqueue("Kent")
+    main_obj.enqueue("Brad")
     print(main_obj.hot_potato(["Bill", "David", "Susan", "Jane", "Brad"], 7))

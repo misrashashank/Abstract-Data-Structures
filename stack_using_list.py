@@ -35,15 +35,13 @@ class ListStack:
 
 if __name__ == '__main__':
     main_obj = ListStack()
-    print(main_obj.is_empty())
     main_obj.push(4)
     main_obj.push('dog')
-    print(main_obj.peek())
     main_obj.push(True)
+    main_obj.push(8.4)
     print(main_obj.size())
     print(main_obj.is_empty())
-    main_obj.push(8.4)
-    print(main_obj.pop())
+    print(main_obj.peek())
     print(main_obj.pop())
     print(main_obj.size())
     print(main_obj.reverse_string("hello"))

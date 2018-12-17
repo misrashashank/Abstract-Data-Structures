@@ -39,5 +39,6 @@ if __name__ == '__main__':
     main_obj.insert_right(main_tree, 'c')
     main_obj.insert_left(main_tree, 'd')
     print(main_obj.get_left_child(main_tree))
+    print(main_obj.get_right_child(main_tree))
     main_obj.set_root_value(main_tree, 'g')
     print(main_obj.get_root_value(main_tree))

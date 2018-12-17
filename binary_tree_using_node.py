@@ -38,12 +38,10 @@ class BinaryTree:
 
 if __name__ == '__main__':
     main_obj = BinaryTree('a')
-    print(main_obj.get_root_value())
-    print(main_obj.get_left_child())
     main_obj.insert_left('b')
-    print(main_obj.get_left_child())
     print(main_obj.get_left_child().get_root_value())
     main_obj.insert_right('c')
+    print(main_obj.get_left_child())
     print(main_obj.get_right_child())
     print(main_obj.get_right_child().get_root_value())
     main_obj.get_right_child().set_root_value('hello')
